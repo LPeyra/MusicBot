@@ -178,7 +178,7 @@ def finalize_logging():
     dlog.addHandler(dlh)
 
 
-def bugger_off():
+def bugger_off(code=1):
     sys.exit(code)
 
 
