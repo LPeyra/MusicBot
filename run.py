@@ -178,9 +178,7 @@ def finalize_logging():
     dlog.addHandler(dlh)
 
 
-def bugger_off(msg="Press enter to continue . . .", code=1):
-    input(msg)
-    sys.exit(code)
+def sys.exit(code)
 
 
 # TODO: all of this
